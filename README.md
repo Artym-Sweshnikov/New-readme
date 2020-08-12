@@ -40,6 +40,25 @@ Git установлен и готов к работе.
 3. Щелкайте по ней и zip архив с проектом будет скачен к вам на компьютер.
 # License
 
+#### Вы можете встроить NeuroStartUp в ваши приложения с помощью следующих сниппетов (кусочков) кода.
+
+JavaScript:
+```sh
+<script src="https://localhost/neuro.sdk.min.js"></script>
+```
+Java (Maven):
+```sh
+<dependency>
+  <groupId>neuro</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+iOS (добавьте код в ваш Podfile):
+
+platform :ios, '8.0'
+pod "neuro-ios-sdk"
+
 MIT
 
 
